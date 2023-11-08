@@ -5,9 +5,9 @@
  * @Author: iowen
  * @Author URI: https://www.iowen.cn/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: iowen
- * @LastEditTime: 2023-04-24 00:42:32
- * @FilePath: \WebStack\footer.php
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2023-11-08 16:55:00
+ * @FilePath: /WebStack/footer.php
  * @Description: 
  */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
@@ -31,7 +31,7 @@ if ($police_icp = io_get_option('police_icp')) {
                     <!---请保留版权说明，谢谢---->
                     <div class="footer-text">
                         Copyright © <?php echo date('Y') ?> <?php bloginfo('name'); ?> <?php echo $_icp ?>
-                        &nbsp;&nbsp;Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>Webstack</strong></a>&nbsp;&nbsp;Modify by <a href="https://github.com/owen0o0/WebStack" target="_blank"><strong>iowen</strong></a>
+                        &nbsp;Powered By <a href="https://w3h5.com" target="_blank"><strong>W3H5.com</strong></a>&nbsp;&nbsp;Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>Webstack</strong></a>&nbsp;Modify by <a href="https://github.com/owen0o0/WebStack" target="_blank"><strong>iowen</strong></a> & <a href="https://github.com/ideshun/WebStackForWordPress" target="_blank"><strong>Deshun</strong></a>
                     </div>
                     <!---请保留版权说明，谢谢---->
                 </div>

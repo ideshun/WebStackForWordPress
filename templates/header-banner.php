@@ -1,14 +1,14 @@
 <?php
 /*
- * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
+ * @Theme Name: WebStack
+ * @Theme URI: https://d.w3to.dev/
  * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: iowen
- * @LastEditTime: 2022-07-25 18:11:27
- * @FilePath: \WebStack\templates\header-banner.php
- * @Description: 
+ * @LastEditTime: 2023-11-08 16:56:31
+ * @FilePath: /WebStack/templates/header-banner.php
+ * @Description: 头部导航
  */
 if ( ! defined( 'ABSPATH' ) ) { exit; }  ?>
 <nav class="navbar user-info-navbar" role="navigation">
@@ -29,7 +29,7 @@ if ( ! defined( 'ABSPATH' ) ) { exit; }  ?>
       </ul>
       <ul class="user-info-menu list-inline list-unstyled">
         <li class="hidden-sm hidden-xs">
-            <a href="https://github.com/owen0o0/WebStack" target="_blank"><i class="fa fa-github"></i> GitHub</a>
+            <a href="https://github.com/ideshun/WebStackForWordPress" target="_blank"><i class="fa fa-github"></i> GitHub</a>
         </li>
       </ul>
     </div>
