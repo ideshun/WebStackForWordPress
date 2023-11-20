@@ -5,9 +5,8 @@
  * @Author: iowen
  * @Author URI: https://www.iowen.cn/
  * @Date: 2020-02-22 21:26:05
- * @LastEditors: iowen
- * @LastEditTime: 2023-02-20 20:55:06
- * @FilePath: \WebStack\inc\fav-content.php
+ * @LastEditTime: 2023-11-20 18:10:02
+ * @FilePath: /WebStack/inc/fav-content.php
  * @Description: 
  */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
@@ -53,7 +52,7 @@ function fav_con($mid) { ?>
             $default_ico = get_theme_file_uri('/images/favicon.png');
             if(current_user_can('level_10') || get_post_meta($post->ID, '_visible', true)==""):
           ?>
-            <div class="xe-card <?php echo io_get_option('columns') ?> <?php echo get_post_meta($post->ID, '_wechat_qr', true)? 'wechat':''?>">
+            <div class="xe-card col-xs-6 <?php echo io_get_option('columns') ?> <?php echo get_post_meta($post->ID, '_wechat_qr', true)? 'wechat':''?>">
               <?php include( get_theme_file_path() .'/templates/site-card.php' ); ?>
             </div>
           <?php endif; endwhile; endif; wp_reset_postdata(); ?>
