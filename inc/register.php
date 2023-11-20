@@ -23,11 +23,14 @@ function theme_load_scripts() {
 	wp_register_script( 'appjs',            THEME_URL.'/js/app.js', array('jquery'), $theme_version, true );
 	wp_register_script( 'lazyload',         THEME_URL.'/js/lazyload.min.js', array('jquery'), $theme_version, true );
 
+    // 新增 iconfont.js 的引用
+    wp_register_script( 'iconfont',         THEME_URL.'/fonts/iconfont/iconfont.js', array('jquery'), $theme_version, true );
+
 	if( !is_admin() )
     {
 		wp_enqueue_style('font-awesome');
 		wp_enqueue_style('bootstrap');
-		wp_enqueue_style('nav'); 
+		wp_enqueue_style('nav');
 
 		wp_deregister_script( 'jquery' );
 		wp_register_script( 'jquery', THEME_URL.'/js/jquery-1.11.1.min.js', array(), $theme_version ,false);
@@ -35,7 +38,8 @@ function theme_load_scripts() {
 
 		wp_enqueue_script('bootstrap');
 		wp_enqueue_script('TweenMax');
-		wp_enqueue_script('appjs'); 
+		wp_enqueue_script('appjs');
+        wp_enqueue_script('iconfont'); // 将 iconfont.js 加入脚本队列
 		
 		if(io_get_option('lazyload')) wp_enqueue_script('lazyload'); 
 
