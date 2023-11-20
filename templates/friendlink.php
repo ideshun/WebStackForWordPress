@@ -1,11 +1,9 @@
 <?php
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: iowen
  * @LastEditTime: 2021-08-22 23:05:46
  * @FilePath: \WebStack\templates\friendlink.php
  * @Description: 

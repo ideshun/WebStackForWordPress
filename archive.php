@@ -1,13 +1,11 @@
 <?php 
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2020-02-22 21:26:05
- * @LastEditors: iowen
- * @LastEditTime: 2023-02-20 20:52:23
- * @FilePath: \WebStack\archive.php
+ * @LastEditTime: 2023-11-20 18:18:12
+ * @FilePath: /WebStack/archive.php
  * @Description: 
  */
 if ( ! defined( 'ABSPATH' ) ) { exit; }

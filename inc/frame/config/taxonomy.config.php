@@ -1,11 +1,9 @@
 <?php
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2021-08-22 19:00:30
- * @LastEditors: iowen
  * @LastEditTime: 2023-02-20 19:24:47
  * @FilePath: \WebStack\inc\frame\config\taxonomy.config.php
  * @Description: 

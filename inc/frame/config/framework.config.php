@@ -1,11 +1,9 @@
 <?php 
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: iowen
  * @LastEditTime: 2023-04-24 00:37:18
  * @FilePath: \WebStack\inc\frame\config\framework.config.php
  * @Description: 
@@ -499,7 +497,7 @@ $options[] = array(
 	
   		array(
 			'type'    => 'subheading',
-			'content' => '嘿！你好，欢迎使用WebStack主题。<br><br>目前这款主题为免费公开，如使用过程中遇到什么问题，可到博客<a href="https://www.iowen.cn" target="_blank">一为忆</a>反馈<br><br>制作一款WordPress主题不易，欢迎各位老板伸出援手，友情赞助！（你们的支持就是我最大的动力！）',
+			'content' => '嘿！你好，欢迎使用WebStack主题。<br><br>目前这款主题为免费公开，如使用过程中遇到什么问题，可到博客<a href="https://d.w3to.dev" target="_blank">Deshun</a>反馈<br><br>制作一款WordPress主题不易，欢迎各位老板伸出援手，友情赞助！（你们的支持就是我最大的动力！）',
 		),
 	
 		array(

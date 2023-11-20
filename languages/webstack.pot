@@ -418,11 +418,11 @@ msgid ""
 msgstr ""
 
 #. Author of the plugin/theme
-msgid "iowen"
+msgid "Deshun"
 msgstr ""
 
 #. Author URI of the plugin/theme
-msgid "https://www.iowen.cn/"
+msgid "https://d.w3to.dev/"
 msgstr ""
 
 #. Template Name of the plugin/theme

@@ -1,12 +1,10 @@
 <?php
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-11-19 17:48:06
+ * @LastEditTime: 2023-11-20 18:19:16
  * @FilePath: /WebStack/templates/site-card.php
  * @Description: 
  */

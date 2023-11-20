@@ -1,12 +1,11 @@
 <?php 
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://github.com/owen0o0/WebStack
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Theme URI:https://ideshun/WebStackForWordPress
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: Please set LastEditors
- * @LastEditTime: 2023-11-08 16:55:00
+ * @LastEditTime: 2023-11-20 18:28:22
  * @FilePath: /WebStack/footer.php
  * @Description: 
  */
@@ -31,7 +30,7 @@ if ($police_icp = io_get_option('police_icp')) {
                     <!---请保留版权说明，谢谢---->
                     <div class="footer-text">
                         Copyright © <?php echo date('Y') ?> <?php bloginfo('name'); ?> <?php echo $_icp ?>
-                        &nbsp;Powered By <a href="https://w3h5.com" target="_blank"><strong>W3H5.com</strong></a>&nbsp;&nbsp;Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>Webstack</strong></a>&nbsp;Modify by <a href="https://github.com/owen0o0/WebStack" target="_blank"><strong>iowen</strong></a> & <a href="https://github.com/ideshun/WebStackForWordPress" target="_blank"><strong>Deshun</strong></a>
+                        &nbsp;Powered By <a href="https://w3to.dev" target="_blank"><strong>w3to.dev</strong></a>&nbsp;&nbsp;Design by <a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank"><strong>Webstack</strong></a>&nbsp;Modify by <a href="https://github.com/owen0o0/WebStack" target="_blank"><strong>iowen</strong></a> & <a href="https://github.com/ideshun/WebStackForWordPress" target="_blank"><strong>Deshun</strong></a>
                     </div>
                     <!---请保留版权说明，谢谢---->
                 </div>

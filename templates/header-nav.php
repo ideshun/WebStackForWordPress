@@ -1,11 +1,9 @@
 <?php
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2019-02-22 21:26:02
- * @LastEditors: iowen
  * @LastEditTime: 2023-02-20 19:59:51
  * @FilePath: \WebStack\templates\header-nav.php
  * @Description: 

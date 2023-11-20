@@ -469,7 +469,7 @@ class CSFramework extends CSFramework_Abstract {
 
       echo '<footer class="cs-footer">';
       echo '<div class="cs-block-left">'.esc_html__('运行在', 'cs-framework' ).'： WordPress '. get_bloginfo('version') .' / PHP '. PHP_VERSION .'</div>';
-      echo '<div class="cs-block-right">&copy; 2019 Theme By <a href="https://www.iowen.cn" target="_blank" style="color: #888;text-decoration: none;"> 一为</a></div>';
+      echo '<div class="cs-block-right">&copy; 2023 Theme By <a href="https://d.w3to.dev" target="_blank" style="color: #888;text-decoration: none;"> Deshun</a></div>';
       echo '<div class="clear"></div>';
       echo '</footer>'; // end .cs-footer
 

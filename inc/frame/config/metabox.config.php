@@ -1,11 +1,9 @@
 <?php
 /*
  * @Theme Name:WebStack
- * @Theme URI:https://www.iotheme.cn/
- * @Author: iowen
- * @Author URI: https://www.iowen.cn/
+ * @Author: Deshun
+ * @Author URI: https://d.w3to.dev/
  * @Date: 2021-08-22 19:00:30
- * @LastEditors: iowen
  * @LastEditTime: 2021-08-22 22:27:34
  * @FilePath: \WebStack\inc\frame\config\metabox.config.php
  * @Description: 
