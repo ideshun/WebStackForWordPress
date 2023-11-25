@@ -1,6 +1,6 @@
 /*
  * Theme Name:WebStack
- * Theme URI:https://www.iotheme.cn/
+ * Theme URI:https://d.w3to.dev/
  */
 body{background-color:#f9f9f9}a{color:#282828;outline:0 !important}p{color:#878888}html,body{height:100%;margin:0;padding:0;border:0}
 a:hover,a:focus{color:#232323;text-decoration:none}
@@ -132,7 +132,7 @@ footer.main-footer:after{clear:both}
 .user-info-navbar .user-info-menu>li a[data-toggle=sidebar]{padding:31px 10px;padding-left:20px}
 @media screen and (max-width:767px){.page-container{display:block}
 .page-container .sidebar-menu,.page-container .main-content{display:block;width:100%;height:auto;position:absolute;top:50px;}
-.page-container .main-content{padding:20px;}
+.page-container .main-content{padding:10px 20px;}
 .page-container .sidebar-menu{position:fixed;z-index:999;top:0px}
 .page-container .sidebar-menu .sidebar-menu-inner{position:relative}
 .page-container .sidebar-menu .sidebar-menu-inner .logo-env,.page-container .sidebar-menu .sidebar-menu-inner .main-menu{padding-left:20px;padding-right:20px}
@@ -230,15 +230,6 @@ footer.main-footer{border-top:0;background-color:#fff}
 /*.ad{overflow:hidden}*/
 .ad img{width:100%;max-height:350px}
 .ad-home img,.ad-footer img{max-height:150px}
-@media screen and (max-width:767px){.main-content.page{padding-left:15px;padding-right:15px}
-footer.main-footer .footer-text{text-align:center;float:none}
-#bulletin_box{margin-top:0;margin-bottom:10px}
-.no-search{margin-top:0px}
-.siteico:before{padding-top:60%}
-.mt-sm-3,.my-sm-3{margin-top:2rem!important}
-.mb-sm-3,.my-sm-3{margin-bottom:2rem!important}
-.mt-sm-0,.my-sm-0{margin-top:0!important}
-}
 @media (min-width:768px){.mt-md-0{margin-top:0!important}
 }
 .comments-area{position:relative;background:#fff;border-radius:5px;padding:20px 30px;border:0;margin-bottom:30px}
@@ -266,39 +257,45 @@ input[type="button"],input[type="submit"]{background-color:#222;border:0;-webkit
 @media (min-width:992px){.container{width:unset;max-width:970px}}
 @media (min-width:1200px){.container{width:unset;max-width:1170px}.mt-lg-0{margin-top:0!important}}
 
-/* --- search --- */
-#search{max-width:717px;margin:100px auto 14px}
+/* --- search new --- */
+#search{max-width:718px;margin:80px auto 18px;}
 #search form{position:relative}
 #search-text{padding:9pt;width:100%;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:#fff}
 #search button{position:absolute;top:0;right:0;background:#313437;border:0;width:60px;height:36px;margin:7px 9pt 0;line-height:36px;border-radius:3px}
 #search button:hover{background:#000;cursor:pointer}
 #search button i{color:#fff;font-size:18px}
-.search-group{display:none;padding-left:75px}
-.s-current .search-type{padding-left:0;display:block}
+.search-group{display:none;padding: 10px}
 .s-current{display:block}
+.s-current .search-type{padding-left:0;display:flex;justify-content: center}
 #search-list{position:relative}
-.s-type{position:absolute;top:0;left:0;z-index:13;width:75px}
-.s-type:hover{height:auto}
-.s-type>span{display:block;height:31px;width:75px}
-.s-type-list{display:none;position:absolute;top:31px;padding:9pt 0;width:70px;background:#fff;border-radius:5px;box-shadow:0 9px 20px rgba(0,0,0,.16)}
-.s-type-list:before{position:absolute;top:-1pc;left:20px;content:'';display:block;width:0;height:0;border:10px solid transparent;border-bottom-color:#fff}
-.s-type-list label{display:block;font-size:15px;text-align:center;font-weight:normal;margin-bottom:0;padding:2px 0;cursor:pointer;transition:.3s}
-.s-type-list label:hover{background:rgba(136,136,136,.1)}
-.s-type-list .tile-lg{color:#fff;width:3pc;height:3pc;font-size:1.25rem;line-height:3rem;border-radius:.3rem;display:block;margin:auto}
-.s-type:hover .s-type-list{display:block}
+.s-type {display: flex;justify-content: center;}
+.s-type .s-item {position: relative;padding: 10px 20px;font-weight: 500;font-size: 16px;margin-bottom: 0; text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.8);}
+.s-type .s-item:after {content: '';height: 4px;width: 4px;border-radius: 2px;position: absolute;left: 50%;bottom: 5px;margin-left: -2px;background-color: rgba(0,0,0,0);transition: 0.3s}
+.s-type .s-item:hover:after {background-color: rgba(0,0,0,0.5);}
+.s-type .s-item.active:after {background-color: rgba(0,0,0,0.5);width: 30px;margin-left: -15px;}
 .type-text{position:absolute;left:0;width:75px;padding-left:9pt;font-size:1pc;line-height:31px}
 .type-text:after{content:"\f105";font-family:FontAwesome;margin:0 0 0 15px}
 .search-type{white-space:nowrap;margin:0}.search-type label{margin:0}
-.search-type li{display:inline-block}
-.search-type li label{display:inline-block;padding:0 11px;font-size:14px;line-height:31px;border-radius:3px 3px 0 0;cursor:pointer}
-.search-type input:checked+label,.search-type input:hover+label{background-color:#fff}
+.search-type li{list-style:none;display:inline-block}
+.search-type li label{display:inline-block;padding:0 11px;font-size:14px;line-height:31px;border-radius:3px 3px 0 0;cursor:pointer; text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5);}
+.search-type input:checked+label{position: relative;}
+.search-type input:checked+label:before{content: '';border-width: 8px 8px 8px 8px;border-style: solid;border-color: rgba(0,0,0,.3) transparent transparent;position: absolute;left: 50%;top: -10px;margin-left: -8px;}
 .set-check{margin-top:3px;font-size:9pt}.set-check label{margin-left:3px}
 .set-check input,.set-check label{opacity:0;transition:all .3s ease}
-.search-type li{list-style:none;display:inline-block}
-@media screen and (max-width:767px){#search{margin:25px auto 15px}
+@media screen and (max-width:767px){
+#search{margin:0 auto 15px;padding-top: 10px;}
 .s-type-list label{padding:5px 0}
 .search-type{overflow:scroll}
+.search-type input:checked+label:before {top: -3px;}
 .search-list{height:30px;overflow-y:hidden;overflow-x:scroll;white-space:nowrap}
+.main-content.page{padding-left:15px;padding-right:15px}
+footer.main-footer .footer-text{text-align:center;float:none}
+#bulletin_box{margin-top:0;margin-bottom:10px}
+.no-search{margin-top:0px}
+.siteico:before{padding-top:60%}
+.mt-sm-3,.my-sm-3{margin-top:2rem!important}
+.mb-sm-3,.my-sm-3{margin-bottom:2rem!important}
+.mt-sm-0,.my-sm-0{margin-top:0!important}
 }
  
 /* --- tougao --- */
