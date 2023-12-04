@@ -84,7 +84,7 @@ if (io_get_option('details_page')) {
             </div>
         </div>
     </a>
-    <a href="<?php echo $link_url ?>" title="直达" class="target-link" target="_blank">
+    <a href="<?php echo $link_url ?>" title="直达" class="target-link" target="_blank" rel="external noopener noreferrer nofollow">
         <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-target-link"></use>
         </svg>
