@@ -4,8 +4,8 @@
  * @Author: Deshun
  * @Author URI: https://d.w3to.dev/
  * @Date: 2020-02-22 21:26:05
- * @LastEditTime: 2021-12-20 23:53:13
- * @FilePath: \WebStack\inc\post-type.php
+ * @LastEditTime: 2023-12-13 08:17:58
+ * @FilePath: /WebStack/inc/post-type.php
  * @Description: 
  */
 if ( ! defined( 'ABSPATH' ) ) { exit; }
@@ -143,14 +143,14 @@ function save_term_order( $term_id ) {
  * 设置 sites 这种自定义文章类型的固定链接结构为 ID.html 
  * https://www.wpdaxue.com/custom-post-type-permalink-code.html
  */
-add_filter('post_type_link', 'custom_sites_link', 1, 3);
-function custom_sites_link( $link, $post = 0 ){
-    if ( $post->post_type == 'sites' ){
-        return home_url( 'sites/' . $post->ID .'.html' );
-    } else {
-        return $link;
-    }
-}
+// add_filter('post_type_link', 'custom_sites_link', 1, 3);
+// function custom_sites_link( $link, $post = 0 ){
+//     if ( $post->post_type == 'sites' ){
+//         return home_url( 'sites/' . $post->ID .'.html' );
+//     } else {
+//         return $link;
+//     }
+// }
 add_action( 'init', 'custom_sites_rewrites_init' );
 function custom_sites_rewrites_init(){
     add_rewrite_rule(
