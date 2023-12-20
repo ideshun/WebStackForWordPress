@@ -27,10 +27,10 @@
             <ul class="search-type">
                 <li><input hidden type="radio" name="type" id="type-br" value="https://rank.chinaz.com/all/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-br"><span style="color:#55a300"><?php _e('权重查询','i_theme') ?></span></label></li>
                 <li><input hidden type="radio" name="type" id="type-links" value="https://link.chinaz.com/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-links"><span style="color:#313439"><?php _e('友链检测','i_theme') ?></span></label></li>
-                <li><input hidden type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-icp"><span style="color:#ffac00"><?php _e('备案查询','i_theme') ?></span></label></li>
-                <li><input hidden type="radio" name="type" id="type-ping" value="https://ping.chinaz.com/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-ping"><span style="color:#00599e"><?php _e('PING检测','i_theme') ?></span></label></li>
-                <li><input hidden type="radio" name="type" id="type-404" value="https://tool.chinaz.com/Links/?DAddress=" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-404"><span style="color:#f00"><?php _e('死链检测','i_theme') ?></span></label></li>
-                <li><input hidden type="radio" name="type" id="type-ciku" value="https://www.ciku5.com/s?wd=" data-placeholder="<?php _e('请输入关键词','i_theme') ?>"><label for="type-ciku"><span style="color:#016DBD"><?php _e('关键词挖掘','i_theme') ?></span></label></li>
+                <li><input hidden type="radio" name="type" id="type-icp" value="https://icp.chinaz.com/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-icp"><span style="color:#ffac00"><?php _e('备案查询','i_theme') ?></span></label></li>
+                <li><input hidden type="radio" name="type" id="type-ping" value="https://www.itdog.cn/tcping/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-ping"><span style="color:#00599e"><?php _e('PING检测','i_theme') ?></span></label></li>
+                <li><input hidden type="radio" name="type" id="type-404" value="https://ntool.chinaz.com/linksTesting/list?type=3&url=" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-404"><span style="color:#f00"><?php _e('死链检测','i_theme') ?></span></label></li>
+                <li><input hidden type="radio" name="type" id="type-seo" value="https://seo.chinaz.com/" data-placeholder="<?php _e('请输入网址(不带http://)','i_theme') ?>"><label for="type-seo"><span style="color:#016DBD"><?php _e('SEO查询','i_theme') ?></span></label></li>
             </ul>
         </div>
         <div class="search-group group-c">
